@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T19:10:24.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="jNnjUd71sMboIeNQCeIY" type="github">
-  <diagram name="Page-1" id="9eBI8pDuBhqo6oqb3B4T">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-12-08T19:20:41.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dd3Ft1K5k1pc1zHD8R2k" version="22.1.7" type="github">
+  <diagram name="LLM Flow" id="9eBI8pDuBhqo6oqb3B4T">
+    <mxGraphModel dx="909" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-2" value="Landing Zone" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhx-_n2aK9J6FJSdDy-i-3" target="Vhx-_n2aK9J6FJSdDy-i-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-3" value="Preprocessing Backend" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vhx-_n2aK9J6FJSdDy-i-2" target="Vhx-_n2aK9J6FJSdDy-i-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-6" value="Vector store&lt;br&gt;(Milvus DB)&lt;br&gt;&lt;hr&gt;API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-7" value="File Storage&lt;br&gt;(docs, images, tables, etc.)&lt;br&gt;&lt;hr&gt;API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="20" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-8" value="LLM Service&lt;br&gt;&lt;hr&gt;API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhx-_n2aK9J6FJSdDy-i-9" target="Vhx-_n2aK9J6FJSdDy-i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-9" value="Embedding Model Service&lt;br&gt;&lt;hr&gt;API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhx-_n2aK9J6FJSdDy-i-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vhx-_n2aK9J6FJSdDy-i-3" target="Vhx-_n2aK9J6FJSdDy-i-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="105" />
+              <mxPoint x="350" y="232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
