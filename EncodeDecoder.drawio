@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T18:34:22.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JV0ivbojgn6JUIIE1OeU" version="22.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-10T18:34:45.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="t3G71pJmt-bsx-14qmF2" version="22.1.7" type="github" pages="3">
   <diagram name="Encoder-Decoder" id="sjMMa_BmgzyaQTwm03Fo">
     <mxGraphModel dx="954" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -358,7 +358,7 @@
             <mxPoint x="590" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lgrlBNO8AceFjgRj_0PN-37" value="Encoder Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lgrlBNO8AceFjgRj_0PN-1">
+        <mxCell id="lgrlBNO8AceFjgRj_0PN-37" value="Decoder Layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lgrlBNO8AceFjgRj_0PN-1">
           <mxGeometry x="290" y="100" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z040dn-1eoIS2DpicxSC-0" value="LSTM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="lgrlBNO8AceFjgRj_0PN-1">
