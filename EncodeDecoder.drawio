@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T18:02:25.862Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="AW2NZyKJgxEOPg1NEGy-" type="github">
-  <diagram name="Page-1" id="sjMMa_BmgzyaQTwm03Fo">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-12-10T18:07:16.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SojQKfTkph5ZVmhm2wMJ" version="22.1.7" type="github">
+  <diagram name="Encoder-Decoder" id="sjMMa_BmgzyaQTwm03Fo">
+    <mxGraphModel dx="954" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wtNh_DmLA7XIUPtqIQi6-2" target="wtNh_DmLA7XIUPtqIQi6-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-2" value="Encoder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-4" value="Decoder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-8" value="Context Vector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="400" as="sourcePoint" />
+            <mxPoint x="170" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-10" value="Nice to meet you" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479.5" y="250" as="sourcePoint" />
+            <mxPoint x="479.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtNh_DmLA7XIUPtqIQi6-14" value="आप से&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;मिल कर&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;अच्छा&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;लगा" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="415" y="150" width="135" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
